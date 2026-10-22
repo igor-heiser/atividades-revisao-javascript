@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Dinâmica de Insumos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <label for="nomeInsumo">Nome: </label>
+        <input type="text" id='nomeInsumo' name="nomeInsumo" placeholder="Digite o nome do insumo...">
+
+        <label for="qtdInsumo">Quantidade: </label>
+        <input type="number" id='qtdInsumo' name="qtdInsumo" placeholder="Digite a quantidade do insumo...">
+
+        <button type="submit" id="btnAdicionarEstoque">Adicionar ao Estoque</button>
+    </form>
+
+    <table id="tabelaEstoque">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Quantidade</th>
+            </tr>
+        </thead>
+        <tbody id='tabelaEstoque'></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>

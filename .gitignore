@@ -1,0 +1,9 @@
+# Dependências do Node
+node_modules/
+
+# Histórico local do VS Code
+.history/
+
+# Arquivos de configuração do npm
+package-lock.json
+package.json

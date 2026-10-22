@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 18rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 9999px;
+    padding: 0.5rem;
+}
+
+#btnAdicionarEstoque {
+    border-radius: 9999px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 105);
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+table, th {
+    text-align: start;
+}

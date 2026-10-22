@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    margin: 20rem;
+}
+
+#btnAlerta {
+    border-radius: 9999px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 105);
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#statusPainel {
+    font-size: 1rem;
+    font-weight: bold;
+}
